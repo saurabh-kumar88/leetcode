@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day6_plusOne",
+      "request": "launch",
+      "mainClass": "july2020.Day6_plusOne",
+      "projectName": "leetcode_1260d6f6"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day4_isUgly_number2",
+      "request": "launch",
+      "mainClass": "july2020.Day4_isUgly_number2",
+      "projectName": "leetcode_1260d6f6"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day1_arranging_coins",
+      "request": "launch",
+      "mainClass": "july2020.Day1_arranging_coins",
+      "projectName": "leetcode_1260d6f6"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day1_arranging_coins",
+      "request": "launch",
+      "mainClass": "Day1_arranging_coins",
+      "projectName": "leetcode_1260d6f6"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PowerOf2",
+      "request": "launch",
+      "mainClass": "misslanous.PowerOf2"
+    }
+  ]
+}

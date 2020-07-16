@@ -1,0 +1,51 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Day16_Pow.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day12_ReverseBits",
+      "request": "launch",
+      "mainClass": "july2020.Day12_ReverseBits"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day11_ReverseBits",
+      "request": "launch",
+      "mainClass": "july2020.Day11_ReverseBits"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day8_3sum",
+      "request": "launch",
+      "mainClass": "Day8_3sum"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Day6_plusOne",
+      "request": "launch",
+      "mainClass": "july2020.Day6_plusOne"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Day5_hammingDistance",
+      "request": "launch",
+      "mainClass": "july2020.Day5_hammingDistance"
+    }
+  ]
+}
