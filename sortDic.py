@@ -1,43 +1,35 @@
-# sorting dic by values
+import operator
+from collections import Counter, OrderedDict
+class Solution:
+  def topKFrequent(self, nums, k):
+    freq = Counter(nums)
+    ans = []
+    freq_values = sorted(freq.values())
+    
+    count = 0
+    while count < k:
+      for key in sorted(freq.keys(), reverse=False):
+        print(" key " , key, " value ", value)
+        ans.append(key)
+        k -= 1
+    
+     
+    print(ans[0:k])
+    return ans[0:k]
 
-from collections import Counter
-
-string  = "etree"
-freq = Counter(string)
-
+def testFunc(arr):
+  x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+  sorted_x = sorted(x.items(), key=operator.itemgetter(0))
 
 
-a = {}
-a['ind'] = 45
-a['can'] = -40
-a['uk'] = 25
-a['aus'] = 45
+# driver code
+arr = [4,4,4,4,1,-1,2,-1,2,3]
+K = 2
 
-value_list = list(a.values())
-key_list = list(a.keys())
-
-sorted_by_value = {}
 
 if __name__ == "__main__":
-    # print(freq)
-    # ans = ""
-    # for i in sorted(freq.keys()):
-    #   ans += i * freq[i]
-    
-    # print(ans)
-
-    print(a)
-    for value in sorted(a.values()):
-      Key = key_list[value_list.index(value)]
-
-      print( value ," : ", key_list[value_list.index(value)] )
-      del[Key]
-      
-      sorted_by_value[Key] = value
-
-    # print(sorted_by_value)
-    # for x in sorted_by_value.keys():
-    #   print(x , " : ", sorted_by_value[x])
-
-
-
+    obj = Solution()
+    # print( obj.topKFrequent(arr, K) )
+    print( testFunc(arr) )
+            
+            
